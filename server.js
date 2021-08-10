@@ -63,7 +63,7 @@ server.delete("/users/:name", (request, response) => {
 
    if(!item) {
      response.status(404)
-     response.send("Cannot delete") 
+     response.send("Can't delete") 
         }
         
      let itemIndex = users.indexOf(item)
